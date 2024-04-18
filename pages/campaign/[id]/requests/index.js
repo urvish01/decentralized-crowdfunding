@@ -248,7 +248,7 @@ export default function Requests({
   approversCount,
   balance,
   name,
-  ETHPrice,
+  ETHPrice
 }) {
   const [requestsList, setRequestsList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
